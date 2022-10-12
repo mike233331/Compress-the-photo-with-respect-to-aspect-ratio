@@ -2,7 +2,7 @@
 
 from PIL import Image
 
-image_path = '/home/pnvasko/PycharmProjects/pythonProject/hello.png'
+image_path = 'hello.png'
 
 # указываем фиксированный размер стороны
 fixed_width = 200
@@ -16,4 +16,4 @@ height_size = int((float(img.size[0]) * float(width_percent)))
 # меняем размер на полученные значения
 new_image = img.resize((fixed_width, height_size))
 new_image.show()
-new_image.save('/home/pnvasko/PycharmProjects/pythonProject/hello.png')
+new_image.save('hello.png')
